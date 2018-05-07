@@ -9,12 +9,9 @@
           <ul>
             <li><a href="https://lawoo.taobao.com" class="icon home">HOME</a></li>
             <li><a href="https://lawoo.taobao.com" class="icon home">SHOP</a></li>
-            {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}" class="icon home">{{ my_page.title }}</a></li>
-            {% endif %}
-            {% endfor %}<!--
-            <li><a href="#" class="icon fa-feed">About</a></li> -->
+            <li><a href="/lesson.html" class="icon home">LESSON</a></li>
+            <li><a href="/work.html" class="icon home">WORK</a></li>
+            <li><a href="/about.html" class="icon fa-feed">About</a></li> -->
             <li><a href="https://lawoo.taobao.com" class="icon home">Contact</a></li>
             <!-- <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="icon fa-feed"> RSS Feed</a></li> -->
           </ul>
